@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="insertDeleg" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.InsertDelegController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <children>
+      <Label layoutX="47.0" layoutY="14.0" text="Introducir datos nueva delegación">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="55.0" prefHeight="18.0" prefWidth="77.0" text="delegacion_id" textAlignment="CENTER" wrapText="true" />
+      <Label layoutX="30.0" layoutY="91.0" prefHeight="18.0" prefWidth="77.0" text="ciudad" textAlignment="RIGHT" wrapText="true" />
+      <TextField fx:id="txtDelegId" layoutX="112.0" layoutY="52.0" prefHeight="9.0" prefWidth="134.0" />
+      <TextField fx:id="txtDelegCiudad" layoutX="112.0" layoutY="87.0" prefHeight="9.0" prefWidth="134.0" />
+      <Button fx:id="btnInsertDeleg" layoutX="116.0" layoutY="136.0" mnemonicParsing="false" onAction="#insertDeleg" text="Insertar" />
+   </children>
+</AnchorPane>

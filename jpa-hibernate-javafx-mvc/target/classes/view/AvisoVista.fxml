@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="avisoWin" prefHeight="120.0" prefWidth="180.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <children>
+      <Label layoutX="98.0" layoutY="24.0" text="AVISO">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="42.0" prefHeight="74.0" prefWidth="156.0" text="Esta funcionalidad se encuentra en proceso de implementación" textAlignment="CENTER" wrapText="true" />
+   </children>
+</AnchorPane>
